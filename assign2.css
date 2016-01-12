@@ -1,0 +1,43 @@
+.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
+  padding-right: 0;
+}
+
+.demo-layout-waterfall .mdl-layout__header-row{
+    height: 40px;
+}
+
+      #map {
+        height: 60%;
+        width: 95%;
+        padding: 50px;
+      }
+
+
+.demo-card-wide.mdl-card {
+    height: 100%;
+    width: 95%;
+    padding: 100%;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.panel.panel-default{
+    width: 95%
+}
+
+.mdl-spinner.mdl-spinner--single-color.mdl-js-spinner.is-active{
+  position: static;
+    z-index: +1;
+}
+
+.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--mini-fab{
+    
+    position: relative;
+    top: 10px;  
+}
+
+.well.well-lg{
+    position:relative;
+    top:100px;
+}

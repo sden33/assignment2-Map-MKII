@@ -1,0 +1,50 @@
+.previous{
+    position:absolute;
+    left:10px;
+    top:13px;
+}
+
+.demo-card-wide.mdl-card {
+  width: 999px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: black;
+  height: 500px;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.mdl-textfield.mdl-js-textfield{
+    position:relative;
+    left:125px;
+}
+
+.material-icons{
+    color:darkblue;
+    position:absolute;
+    left:125px;
+    width:180;
+    height: 50;
+    opacity:0.6;
+        
+     
+}
+
+#map {
+        height: 80%;
+        width: 80%;
+        padding: 60px;
+        position:relative;
+        top:100px;
+      }
+
+.well.well-lg{
+    position:relative;
+    top:200px;
+}
+
+.mdl-spinner.mdl-spinner--single-color.mdl-js-spinner.is-active{
+  position: static;
+    z-index: +1;
+}

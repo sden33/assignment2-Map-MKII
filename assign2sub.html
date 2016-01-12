@@ -1,0 +1,69 @@
+<html>
+<head>
+    <title>Add location</title>
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
+<script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="assign2sub.css">
+    
+    </head>
+    
+<body>
+    <body background= "http://i.huffpost.com/gen/1378629/images/o-LOCATION-MAP-facebook.jpg" >
+       
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+          <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                 <nav>
+  <ul class="pager">
+    <li class="previous"><a href="assign2.html"><span aria-hidden="true">&larr;</span></a></li>
+  </ul>
+</nav>
+                
+              <span class="mdl-layout-title">Add location</span>
+            </div>
+          </header>
+        <div align="center">
+<div class="mdl-spinner mdl-spinner--single-color mdl-js-spinner is-active"></div>  
+</div>    
+       
+    <form action="#">
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" id="sample1">
+        <label class="mdl-textfield__label" for="sample1">Type a location...</label>
+      </div>
+    </form>
+    
+    <form action="#">
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+        <label class="mdl-textfield__label" for="sample2">Enter a nickname...</label>
+      </div>
+    </form>
+        
+    <!-- Raised button with ripple -->
+<button  class="material-icons">
+    add_location A D D
+    
+</button>
+
+<div align="center"> 
+    
+<div id="map"></div>
+    
+
+
+<div class="well well-lg">    Team 52 - weather app - location adder  </div>        
+</div>  
+</div>
+
+        
+        
+    </body>
+    <script src="assign2sub.js"></script>
+<script async defer
+            src="https://maps.googleapis.com/maps/api/js?v=3&amp;key=&amp;callback=latlon"></script>
+</html>
